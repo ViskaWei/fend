@@ -4,7 +4,8 @@ projectData = {};
 // Require Express to run server and routes
 
 // Start up an instance of app
-
+// const dotenv = require('dotenv');
+// dotenv.config();
 /* Middleware*/
 //Here we are configuring express to use body-parser as middle-ware.
 app.use(bodyParser.urlencoded({ extended: false }));
